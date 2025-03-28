@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📚✨ Plan Frontend Developer ✨📚</title>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background-color: #ffeefc;
+      margin: 0;
+      padding: 2rem;
+      color: #5a3e57;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #ff69b4;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .week {
+      background: #fff0f6;
+      border-radius: 1.5rem;
+      padding: 1.5rem;
+      border: 2px dashed #ffa5d8;
+      box-shadow: 0 4px 10px rgba(255, 192, 203, 0.3);
+      transition: transform 0.2s ease;
+    }
+    .week:hover {
+      transform: scale(1.03);
+    }
+    .week h2 {
+      color: #c94f7c;
+      font-size: 1.1rem;
+      margin-bottom: 0.6rem;
+    }
+    .week ul {
+      padding-left: 1.2rem;
+    }
+    .week ul li {
+      margin-bottom: 0.5rem;
+    }
+    .ig-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #ff69b4;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border: none;
+      border-radius: 50px;
+      font-weight: bold;
+      font-size: 1rem;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+    }
+    .ig-btn:hover {
+      background-color: #ff85c1;
+    }
+  </style>
+</head>
+<body>
+  <h1>Plan de Estudio - Frontend Developer (12 semanas)</h1>
+  <div class="grid">
+    <div class="week">
+      <h2>🌸 Semana 1-2: Fundamentos de JavaScript</h2>
+      <ul>
+        <li>Entender variables, tipos de datos, operadores, condicionales y loops.</li>
+        <li>Practicar funciones, arrays y objetos.</li>
+        <li>Proyectos sugeridos: conversor de temperatura, calculadora simple.</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h2>💻 Semana 3-4: DOM y Eventos</h2>
+      <ul>
+        <li>Manipular el DOM con JS.</li>
+        <li>Capturar y responder a eventos (clicks, inputs).</li>
+        <li>Proyectos sugeridos: To-Do List básica, formulario con validación.</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h2>⚛️ Semana 5-6: React Base + Hooks</h2>
+      <ul>
+        <li>JSX, componentes, props y estado (useState).</li>
+        <li>Ciclo de vida con useEffect.</li>
+        <li>Proyectos: contador interactivo, buscador de películas con API.</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h2>🧭 Semana 7-8: Rutas, APIs, Estilos</h2>
+      <ul>
+        <li>React Router.</li>
+        <li>Fetch con APIs.</li>
+        <li>Styled Components o TailwindCSS.</li>
+        <li>Proyectos: app de clima, blog con navegación entre posts.</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h2>🔧 Semana 9-10: Git, Testing y Accesibilidad</h2>
+      <ul>
+        <li>Versionado con Git y uso de GitHub.</li>
+        <li>Primeros pasos con Jest y React Testing Library.</li>
+        <li>Principios de accesibilidad (WCAG, etiquetas semánticas).</li>
+        <li>Proyecto: refactorizar proyectos anteriores.</li>
+      </ul>
+    </div>
+    <div class="week">
+      <h2>🌟 Semana 11-12: Portfolio + Aplicaciones</h2>
+      <ul>
+        <li>Crear tu portfolio con React o HTML/CSS.</li>
+        <li>Subirlo a GitHub + Netlify/Vercel.</li>
+        <li>Simular aplicación a un trabajo (resume + cover letter).</li>
+        <li>Proyecto final: portfolio profesional con 2-3 proyectos destacados.</li>
+      </ul>
+    </div>
+  </div>
+  <a class="ig-btn" href="https://instagram.com/karyabarca" target="_blank">
+    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" width="20" />
+    Instagram
+  </a>
+</body>
+</html>
